@@ -18,7 +18,7 @@ def filebrowser(ext=''):
     return [filepath for filepath in glob.iglob(target, recursive = True)] # Recursive from Current Directory
 
 
-image_name = sys.argv[1] # origional image path goes here
+image_name = sys.argv[1] # original image path goes here
 original = cv2.imread(image_name)
 
 
